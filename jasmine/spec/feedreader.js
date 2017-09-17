@@ -42,7 +42,7 @@ $(function () {
         it('toggle menu visibility', function () {
 
             menuIconLink.click();
-            expect(body.hasClass('menu-hidden')).not.toBe(true);
+            expect(body.hasClass('menu-hidden')).toBe(false);
 
             menuIconLink.click();
             expect(body.hasClass('menu-hidden')).toBe(true);
