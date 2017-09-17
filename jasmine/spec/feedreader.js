@@ -79,7 +79,7 @@ $(function () {
          */
 
         it('toggle menu visibility', function () {
-            var existingClass = body.attr('class')
+            var existingClass = body.attr('class');
             expectedClass = body.hasClass('menu-hidden') ? '' : 'menu-hidden';
 
             menuIconLink.click();
