@@ -107,7 +107,7 @@ $(function () {
          */
 
         it('feed container has atleast a single entry', function () {
-            expect($('.feed .entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry-link').length).toBeGreaterThan(0);
         });
 
     });
